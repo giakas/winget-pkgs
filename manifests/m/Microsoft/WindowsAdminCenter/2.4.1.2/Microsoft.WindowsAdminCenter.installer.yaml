@@ -1,0 +1,18 @@
+# Automatically updated by the winget bot at 2024/Aug/15
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: Microsoft.WindowsAdminCenter
+PackageVersion: 2.4.1.2
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+Scope: machine
+InstallerSwitches:
+  Silent: /verysilent
+  SilentWithProgress: /verysilent
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download.microsoft.com/download/1/0/5/1059800B-F375-451C-B37E-758FFC7C8C8B/WindowsAdminCenter2410.exe
+  InstallerSha256: 24D8A327929679AC2F04AC5A22836D89705E6965DB0EC201F8F79F6D9DC2406B
+  ProductCode: '{5F4F55C8-9804-4419-98A3-74851ABA5F4E}'
+ManifestType: installer
+ManifestVersion: 1.9.0
